@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color:#171c22;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+}
+
+/* box 1 */
+
+.nav-logo{
+    height: 45px;
+    width: 100px;
+   
+  
+}
+
+.logo {
+    background-image: url("download.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+}
+
+
+/* box 2 */
+.add-icon{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    display: flex;
+}
+.add-first {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-left: 25px;
+   }
+.add-second {
+    font-size: 1rem;
+    color: white;
+    margin-left: 5px;
+}
+
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 140px;
+    text-align: center;
+    border: 5px;
+    border-top-right-radius: none;
+    border: none;
+    margin-right: 2px;
+}
+.search-input{
+    width: 100%; 
+    font-size: 1rem;
+    border: none;  
+    
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem ;
+    background-color: rgb(221, 153, 8);
+}
+
+/* box 4 */
+
+span{
+    font-size: 0.9 rem;
+}
+
+.nav-second{
+    font-size: 1.2 rem;
+    font-weight: 700;
+}
+
+/* box 5 cart */
+
+
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+
+/* panel all */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.panel-all i{
+    font-size: 25px;
+}
+.panel-option p {
+    display: inline;
+    margin-left: 20px;
+    border: 2px solid transparent ;
+} 
+.panel-option p:hover {
+    border: 2px solid rgba(211, 191, 14, 0.733);
+}
+
+.panel-option{
+    font-size: 1rem;
+    width: 70%;
+    
+}
+
+.panel-deals {
+    font-size: 1.025 rem;
+    font-weight: 700;
+    
+}
+
+/* hero section */
+
+.hero-section{
+    background-image: url("image.png");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.849);
+    color: black;
+    font-weight: medium;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 90%;
+    margin-bottom: 35px;
+
+
+}
+
+/* shop-section */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(140, 153, 149);
+    
+}
+
+.box{
+    background-color: white;
+    height: 450px;
+    width: 23%; 
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.box-img{
+    height: 280px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin:0px 10px 0px 10px ;
+}
+
+
+.box-content p{
+    color: #007185;
+}
+
+
+
+/* bike-shop */
+
+.shop-bike{
+    height: 350px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.content1{
+    display: flex;
+    margin: 10px;
+}
+
+.content1 p{
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #007185;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box0{
+    width: 24%;
+    height: 300px;
+}
+
+.content2 .box-img{
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* footer panel */
+
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+
+}
+.foot-panel2{
+    background-color: #222f3d; 
+    color:white;
+    height: 300px  ;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+ul{
+    margin-top: 40px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem ;
+    margin-top: 10px ;
+    color: #dddddd;
+
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 2px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("download.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 70px;
+     
+}
+
+.foot-option1{
+    text-align: center;
+    padding-top: 25px;
+
+
+}
+.foot-option1 a {
+    justify-content: space-evenly;
+}
+
+.foot-option2{
+    text-align: center ;
+    padding-top: 5px;
+    
+
+}
